@@ -1,8 +1,11 @@
 To start using app run
 ```
 composer install
-composer dump
 ```
+
+Currently, app does not have visual interface or console so access point currently is through index.php
+
+To run app ``php index.php``
 
 To run tests ``./vendor/bin/phpunit``
 
