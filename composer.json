@@ -1,0 +1,20 @@
+{
+    "name": "rokis/employer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rokas Lakstauskas",
+            "email": "rokas.lakstauskas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "description": "simple project"
+}
