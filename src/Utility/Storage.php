@@ -8,11 +8,12 @@ use SQLite3;
 
 class Storage extends SQLite3
 {
-    private const DB_FILE = 'src\\database.db';
+    private const DB_FILE = 'database.db';
     private static $instance;
 
     function __construct()
     {
+
         parent::__construct(self::DB_FILE);
     }
 
@@ -50,7 +51,7 @@ class Storage extends SQLite3
         $db->exec($sql);
     }
 
-    public function select(string $name): array|bool
+    public function select(string $name): array
     {
         $finalRes = [];
         $sql = "SELECT NAME FROM EMPLOYEE WHERE NAME = '$name'";

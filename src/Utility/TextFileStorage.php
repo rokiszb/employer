@@ -5,7 +5,7 @@ namespace App\Utility;
 
 class TextFileStorage
 {
-    const FILE_PATH = __DIR__ . '\\..\\names.txt';
+    const FILE_PATH = 'names.txt';
 
     public function insert(string $name): void
     {

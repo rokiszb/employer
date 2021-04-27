@@ -9,7 +9,9 @@
     ],
     "require": {
         "php": ">=7.4",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "ext-sqlite3": "*",
+        "ext-http": "*"
     },
     "autoload": {
         "psr-4": {

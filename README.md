@@ -1,5 +1,8 @@
 To start using app run
-``composer dump``
+```
+composer install
+composer dump
+```
 
 To run tests ``./vendor/bin/phpunit``
 
